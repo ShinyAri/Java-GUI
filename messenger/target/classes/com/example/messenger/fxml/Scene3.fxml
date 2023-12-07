@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.shape.Circle?>
+<AnchorPane prefHeight="736.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messenger.Scene3Controller">
+   <children>
+      <TextArea layoutY="686.0" prefHeight="50.0" prefWidth="414.0" style="-fx-background-radius: 25px; -fx-border-radius: 25px;" text="Aa" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </TextArea>
+      <Button layoutX="14.0" layoutY="31.0" onMouseClicked="#scene1Clicked" mnemonicParsing="false" prefHeight="26.0" prefWidth="28.0" text="Button" />
+      <Pane layoutX="51.0" prefHeight="95.0" prefWidth="363.0">
+         <children>
+            <ImageView fitHeight="55.0" fitWidth="56.0" layoutX="8.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                <clip>
+                    <Circle centerX="28.0" centerY="28.0" radius="28.0" />
+                </clip>
+               <image>
+                  <Image url="@../image/avt1.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="66.0" layoutY="29.0" prefHeight="38.0" prefWidth="232.0" text="Napple">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutX="225.0" layoutY="109.0" prefHeight="38.0" prefWidth="166.0" style="-fx-background-color: red; -fx-background-radius: 20px;" text="where you get this" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="19.0" layoutY="147.0" prefHeight="38.0" prefWidth="123.0" style="-fx-background-color: #EEEEEE; -fx-background-radius: 20px;" text="Lobobo bro">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="19.0" layoutY="198.0" prefHeight="38.0" prefWidth="76.0" style="-fx-background-radius: 20px; -fx-background-color: #EEEEEE;" styleClass="r" text="Aram">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="246.0" prefHeight="38.0" prefWidth="76.0" style="-fx-background-color: red; -fx-background-radius: 20px;" text="val?" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="23.0" layoutY="305.0" prefHeight="38.0" prefWidth="55.0" style="-fx-background-color: #EEEEEE; -fx-background-radius: 20px;" styleClass="r" text="oke">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="28.0" layoutY="433.0" prefHeight="38.0" prefWidth="76.0" style="-fx-background-color: #EEEEEE; -fx-background-radius: 20px;" text="1 game" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="363.0" prefHeight="38.0" prefWidth="76.0" style="-fx-background-color: red; -fx-background-radius: 20px;" text="let go" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

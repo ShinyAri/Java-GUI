@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736" prefWidth="414" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messenger.Scene2Controller">
+    <bottom>
+        <AnchorPane prefHeight="75.0" prefWidth="414.0" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane layoutX="0.0" layoutY="75.0" prefHeight="586.0" prefWidth="414.0">
+                    <children>
+                        <Pane layoutY="-70.0" prefHeight="118.0" prefWidth="414.0">
+                            <children>
+                                <ImageView fitHeight="56.0" fitWidth="56.0" layoutX="24.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                                    <clip>
+                                        <Circle centerX="28.0" centerY="28.0" radius="28.0" />
+                                    </clip>
+                                    <image>
+                                        <Image url="@../image/avt1.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Label alignment="BOTTOM_LEFT" layoutX="104.0" layoutY="14.0" prefHeight="59.0" prefWidth="178.0" text="Napple">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font></Label>
+                            </children>
+                        </Pane>
+                        <Pane layoutY="14.0" prefHeight="118.0" prefWidth="414.0">
+                            <children>
+                                <ImageView fitHeight="56.0" fitWidth="56.0" layoutX="24.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                                    <clip>
+                                        <Circle centerX="28.0" centerY="28.0" radius="28.0" />
+                                    </clip>
+                                    <image>
+                                        <Image url="@../image/avt2.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Label alignment="BOTTOM_LEFT" layoutX="101.0" layoutY="14.0" prefHeight="59.0" prefWidth="178.0" text="cook jung">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font></Label>
+                            </children>
+                        </Pane>
+                        <Pane layoutY="190.0" prefHeight="118.0" prefWidth="414.0">
+                            <children>
+                                <ImageView fitHeight="56.0" fitWidth="56.0" layoutX="24.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                                    <clip>
+                                        <Circle centerX="28.0" centerY="28.0" radius="28.0" />
+                                    </clip>
+                                    <image>
+                                        <Image url="@../image/avt4.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Label alignment="BOTTOM_LEFT" layoutX="106.0" layoutY="14.0" prefHeight="59.0" prefWidth="178.0" text="Son solei">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font></Label>
+                            </children>
+                        </Pane>
+                        <Pane layoutY="103.0" prefHeight="118.0" prefWidth="414.0">
+                            <children>
+                                <ImageView fitHeight="56.0" fitWidth="56.0" layoutX="24.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                                    <clip>
+                                        <Circle centerX="28.0" centerY="28.0" radius="28.0" />
+                                    </clip>
+                                    <image>
+                                        <Image url="@../image/avt3.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Label alignment="BOTTOM_LEFT" layoutX="102.0" layoutY="14.0" prefHeight="59.0" prefWidth="178.0" text="ngu xtsk">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font></Label>
+                            </children>
+                        </Pane>
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </bottom>
+    <top>
+        <AnchorPane prefHeight="75.0" prefWidth="414.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button layoutX="14.0" layoutY="12.0" onMouseClicked="#scene1Clicked" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Hủy" textFill="#2748b7">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+                <Label alignment="CENTER" layoutX="79.0" layoutY="0.0" prefHeight="75.0" prefWidth="254.0" text="Tin nhắn mới" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </top>
+</BorderPane>
